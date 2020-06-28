@@ -29,7 +29,8 @@
 	}],
 
 	"permissions": [
-		"storage"
+		"storage",
+		"tabs"
 	],
 
 	"options_ui": {

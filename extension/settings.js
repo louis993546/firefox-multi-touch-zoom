@@ -23,6 +23,10 @@ document.getElementById('mtzoom_speed').addEventListener('change', function (eve
   storageArea.set({ "mtzoom_speed": parseFloat(event.target.value) });
 });
 
+document.getElementById('mtzoom_skip').addEventListener('change', function (event) {
+  storageArea.set({ "mtzoom_skip": event.target.value });
+});
+
 document.getElementById('mtzoom_disableScrollbarsWhenZooming').addEventListener('change', function (event) {
   storageArea.set({ "mtzoom_disableScrollbarsWhenZooming": event.target.checked });
 });
